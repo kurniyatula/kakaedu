@@ -1,0 +1,699 @@
+.container-fluid {
+  overflow: hidden;
+}
+
+body {
+  background: #E5E5E5;
+  font-family: 'Poppins', sans-serif;
+  color: #1583B0;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar .navbar-brand {
+  color: #1583B0 !important;
+  font-weight: 600;
+  font-size: 32px;
+  margin: 0px;
+  padding: 0px 0px 0px 49px;
+}
+
+.navbar .navbar-brand img {
+  margin-left: -7px;
+  margin: 12px 0px;
+}
+
+.navbar .navbar-brand-centered {
+  padding: 0 !important;
+}
+
+.navbar .navbar-brand-beranda {
+  padding: 0px 0px 0px 10px;
+}
+
+.navbar .img-user {
+  padding-right: 40px;
+}
+
+.navbar form .input-icon {
+  width: 100%;
+  position: relative;
+}
+
+.navbar form input {
+  outline: none;
+  font-size: 12px;
+  display: block;
+  padding-left: 55px;
+  width: 560px;
+  height: 48px;
+  background-color: #F8F8F8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  color: #4F4F4F;
+}
+
+.navbar form input + i {
+  position: absolute;
+  float: left;
+  left: 28px;
+  top: 16px;
+  color: #4F4F4F;
+}
+
+.navbar-light .navbar-nav .navbar-link {
+  color: #525254;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: 25px !important;
+  border-radius: 0;
+  padding: 0px;
+}
+
+.btn-daftar {
+  background-color: #30AFE4;
+  color: #ffffff;
+  width: 180px;
+  height: 112px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.btn-daftar:hover {
+  background-color: #1E3771;
+  color: #ffffff;
+}
+
+.section-splash {
+  background-size: cover;
+  padding-left: 32px;
+  margin-top: 100px;
+}
+
+.section-splash .header-left a {
+  font-size: 24px;
+  color: #2EB0E2;
+  padding-left: 32px;
+  padding-top: 12px;
+}
+
+.section-splash .header-left h3 {
+  font-size: 36px;
+  color: #000000;
+  padding-top: 16px;
+  padding-left: 32px;
+}
+
+.section-splash .header-left p {
+  font-size: 18px;
+  color: #000000;
+  line-height: 27px;
+  text-align: justify;
+  padding-left: 32px;
+  margin-right: 5px;
+  padding-top: 8px;
+}
+
+.section-splash .header-left h2 {
+  padding: 32px 0 0 32px;
+  font-size: 48px;
+}
+
+.section-splash .header-right {
+  padding: 0;
+  margin: 0;
+}
+
+.section-splash .header-right img {
+  padding-top: 117px;
+  width: 100%;
+  margin-left: -140px;
+}
+
+.section-header {
+  margin-top: 40px;
+}
+
+.section-header .kembali a {
+  font-size: 25px;
+  color: #1785B3;
+  font-weight: 600;
+  padding-left: 25px;
+}
+
+.section-header h3 {
+  margin-top: 40px;
+  color: #000000;
+  font-size: 36px;
+}
+
+.section-header p {
+  color: #525254;
+  font-size: 24;
+}
+
+.section-account .section-pilih-akun {
+  margin-bottom: 16px;
+}
+
+.section-account .section-pilih-akun button {
+  border: none;
+  background-color: #fff;
+  width: 700px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.section-account .section-pilih-akun button .button-pilih {
+  margin: 0 auto;
+}
+
+.section-account .section-pilih-akun button .button-pilih img {
+  padding-left: 35px;
+}
+
+.section-account .section-pilih-akun button .button-pilih .card-body {
+  padding: 20px 0;
+  text-align: start;
+}
+
+.section-account .section-pilih-akun button .button-pilih .card-body .title {
+  color: #000000;
+  font-size: 24px;
+}
+
+.section-account .section-pilih-akun button .button-pilih .card-body .text {
+  color: #000000;
+  font-size: 16px;
+  margin: 0;
+}
+
+.section-account .section-pilih-akun .gabung {
+  color: #525254;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 370px;
+}
+
+.section-akun-siswa .bagian-atas {
+  Width: 639px;
+  Height: 72px;
+  font-size: 24px;
+  color: #525254;
+  margin: 40px auto 24px;
+}
+
+.section-akun-siswa .section-form-siswa form .input-icon {
+  width: 100%;
+  position: relative;
+}
+
+.section-akun-siswa .section-form-siswa form .input-icon .invalid {
+  border-color: #dc3545;
+}
+
+.section-akun-siswa .section-form-siswa form .input-icon span {
+  color: #FE5656;
+  font-size: 14px;
+  padding-right: 345px;
+}
+
+.section-akun-siswa .section-form-siswa form input, .section-akun-siswa .section-form-siswa form select {
+  outline: none;
+  margin-top: 3px;
+  margin-bottom: 13px;
+  font-size: 16px;
+  display: block;
+  padding: 16px 0 16px 18px;
+  padding-left: 55px;
+  width: 640px;
+  height: 55px;
+  border: 1px solid #E3E9EF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  color: #787879;
+}
+
+.section-akun-siswa .section-form-siswa form input + i, .section-akun-siswa .section-form-siswa form select + i {
+  position: absolute;
+  float: left;
+  left: 24px;
+  top: 19px;
+  color: #777;
+}
+
+.section-akun-siswa .btn-daftar {
+  width: 400px;
+  height: 56px;
+  font-size: 24px;
+  background: #31AEE3;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.section-akun-siswa .gabung {
+  color: #525254;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.section-login-siswa .bagian-atas {
+  font-size: 24px;
+  color: #525254;
+  padding-top: 128px;
+  padding-bottom: 40px;
+}
+
+.section-login-siswa .section-form-login .error {
+  padding-bottom: 16px;
+}
+
+.section-login-siswa .section-form-login .error span {
+  margin-left: 10px;
+  color: #dc3545;
+}
+
+.section-login-siswa .section-form-login form .input-icon {
+  width: 100%;
+  position: relative;
+}
+
+.section-login-siswa .section-form-login form .input-icon .invalid {
+  border-color: #dc3545;
+}
+
+.section-login-siswa .section-form-login form .input-icon span {
+  color: #FE5656;
+  text-align: start;
+}
+
+.section-login-siswa .section-form-login form input {
+  outline: none;
+  margin-top: 3px;
+  margin-bottom: 13px;
+  font-size: 16px;
+  display: block;
+  padding: 16px 0 16px 18px;
+  padding-left: 55px;
+  width: 640px;
+  border: 1px solid #E3E9EF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  color: #787879;
+}
+
+.section-login-siswa .section-form-login form input + i {
+  position: absolute;
+  float: left;
+  left: 28px;
+  top: 16px;
+  color: #777;
+}
+
+.section-login-siswa .btn-login {
+  width: 400px;
+  height: 56px;
+  font-size: 24px;
+  background: #31AEE3;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.section-login-siswa .daftar {
+  color: #525254;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.vertical-nav {
+  min-width: 230px;
+  height: 150vh;
+  top: 120;
+  left: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.vertical-nav h3 {
+  font-size: 16px;
+  padding: 32px 32px 16px 32px;
+  color: #525254;
+  font-weight: 600;
+}
+
+.vertical-nav .media {
+  padding-left: 32px;
+}
+
+.vertical-nav .media .media-body a {
+  font-size: 10px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.vertical-nav .media .media-body h4 {
+  color: #525254;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.vertical-nav p {
+  font-weight: 600;
+  font-size: 14px;
+  color: #A6B4C2;
+}
+
+.vertical-nav .nav-item a {
+  font-weight: 500;
+  font-size: 12px;
+  color: #525254;
+  padding: 15px 75px 15px 16px;
+}
+
+.vertical-nav a + i {
+  font-size: 50px;
+}
+
+#sidebar.active {
+  margin-left: -17rem;
+}
+
+.separator {
+  margin: 3rem 0;
+  border-bottom: 1px dashed #fff;
+}
+
+.text-uppercase {
+  letter-spacing: 0.1em;
+}
+
+.text-gray {
+  color: #aaa;
+}
+
+.nav-link {
+  text-transform: capitalize;
+}
+
+.nav-link:hover {
+  background: #f3f2f2;
+}
+
+.text-primary {
+  color: #33ADE7 !important;
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -17rem;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+}
+
+.section-content .card .card-body {
+  padding: 20px 10px;
+}
+
+.section-content .card .card-body .card-title {
+  font-weight: 500;
+  font-size: 12px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.section-content .card .card-body .card-text-post {
+  font-size: 12px;
+  color: #000000;
+  margin-bottom: 7px;
+}
+
+.section-content .card .card-body .text-post {
+  font-weight: normal;
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+
+.section-content .card .card-body .text-sender {
+  font-weight: normal;
+  font-size: 12px;
+  color: #525254;
+  margin-bottom: 16px;
+}
+
+.section-content .card .card-body .text-content {
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+.section-tugas .card .card-body {
+  padding: 20px 0px;
+}
+
+.section-tugas .card .card-body .card-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000;
+  padding: 4px 0px 8px 24px;
+  margin: 0px;
+}
+
+.section-tugas .card .card-body .col {
+  padding: 0px 15px;
+}
+
+.section-tugas .card .card-body .col .judul-tugas {
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 10px;
+  margin-top: 2px;
+}
+
+.section-tugas .card .card-body .col .keterangan {
+  font-weight: normal;
+  font-size: 12px;
+  color: #525254;
+  margin-bottom: 13px;
+}
+
+.section-tugas .card .card-body .col .keterangan .text-merah {
+  color: #FF0909;
+}
+
+.section-content-kelas .card .card-body {
+  max-width: 730px;
+  margin: 0 10px;
+  padding-bottom: 0px;
+}
+
+.section-content-kelas .card .card-body form .card-button a {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.section-content-kelas .card .card-body form .card-button .btn-kirim {
+  margin: 0px 8px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 6px 27px;
+}
+
+.section-content-kelas .card .card-body img {
+  margin-right: 10px;
+}
+
+.section-content-kelas .card .card-body .card-title {
+  font-weight: 500;
+  font-size: 12px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.section-content-kelas .card .card-body .card-text-post {
+  font-size: 12px;
+  color: #000000;
+  margin-bottom: 7px;
+}
+
+.section-content-kelas .card .card-body .text-post {
+  font-weight: normal;
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+
+.section-content-kelas .card .card-body .text-content {
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+.section-content-kelas .card .form-control {
+  border: none;
+  background-color: #F8F8F8;
+  font-size: 14px;
+}
+
+.section-content-kelas .card .container-like p {
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+
+.section-content-kelas .card .container-like p .active {
+  color: red;
+}
+
+.section-card-upload .card {
+  margin-top: 24px;
+}
+
+.section-card-upload .card .card-body {
+  padding: 24px 24px 24px 24px;
+  margin-left: 18px;
+}
+
+.section-card-upload .card .card-body .card-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #525254;
+  margin-bottom: 8px;
+}
+
+.section-card-upload .card .card-body .card-text-post {
+  font-size: 12px;
+  color: #000000;
+  margin-bottom: 7px;
+  font-weight: 500;
+}
+
+.section-card-upload .card .card-body .text-sender {
+  font-weight: normal;
+  font-size: 12px;
+  color: #525254;
+  margin-bottom: 16px;
+}
+
+.section-card-upload .card .card-body .text-post {
+  font-weight: normal;
+  font-size: 12px;
+  margin-bottom: 7px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.section-card-upload .card .card-body .text-merah {
+  color: red;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.section-card-upload .card .card-body .text-content {
+  font-weight: normal;
+  font-size: 12px;
+  color: #000000;
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+.section-card-upload .card hr {
+  margin: 0px;
+}
+
+.section-upload .container-upload {
+  padding-left: 110px;
+  height: 350px;
+  width: 714px;
+  margin-bottom: 110px;
+}
+
+.section-upload .container-upload .judul {
+  font-weight: 600;
+  font-size: 24px;
+  color: #525254;
+  text-align: start;
+  margin-bottom: 0;
+}
+
+.section-upload .container-upload form {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  margin-top: -100px;
+  margin-left: -250px;
+  width: 667px;
+  height: 231px;
+  border: 2px solid #BDBDBD;
+  border-radius: 5px;
+}
+
+.section-upload .container-upload form p {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 250px;
+  font-size: 18px;
+  color: #525254;
+}
+
+.section-upload .container-upload form input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+}
+
+.section-upload .container-upload form input + i {
+  position: absolute;
+  text-align: center;
+  line-height: 150px;
+  color: #4F4F4F;
+  left: 315px;
+}
+
+.section-upload .container-upload form button {
+  margin: 0;
+  color: #fff;
+  background: #31AEE3;
+  border: none;
+  width: 400px;
+  height: 56px;
+  margin-top: 20px;
+  margin-left: 4px;
+  border-radius: 5px;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  outline: none;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.section-upload .container-upload form button:active {
+  border: 0;
+}
+/*# sourceMappingURL=main.css.map */
